@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiTenant", "MultiTenant\MultiTenant.csproj", "{6BAA126C-81A9-4FC7-89DC-2AE5D5E268E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiTenant.Tests", "MultiTenant.Tests\MultiTenant.Tests.csproj", "{2DD2C3B2-8B1B-4BC5-BBAE-F2173283D67A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6BAA126C-81A9-4FC7-89DC-2AE5D5E268E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BAA126C-81A9-4FC7-89DC-2AE5D5E268E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BAA126C-81A9-4FC7-89DC-2AE5D5E268E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BAA126C-81A9-4FC7-89DC-2AE5D5E268E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DD2C3B2-8B1B-4BC5-BBAE-F2173283D67A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DD2C3B2-8B1B-4BC5-BBAE-F2173283D67A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DD2C3B2-8B1B-4BC5-BBAE-F2173283D67A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DD2C3B2-8B1B-4BC5-BBAE-F2173283D67A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
