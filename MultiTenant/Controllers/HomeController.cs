@@ -19,5 +19,17 @@ namespace MultiTenant.Controllers
 
             return View();
         }
+
+        public ActionResult About()
+        {
+            ViewBag.Message = "description of your app";
+            return View();
+        }
+
+        public ActionResult Contact()
+        {
+            ViewBag.Message = "contact Page";
+            return View();
+        }
     }
 }

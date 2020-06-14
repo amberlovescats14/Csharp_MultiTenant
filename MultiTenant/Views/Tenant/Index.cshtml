@@ -1,0 +1,20 @@
+﻿@model List<MultiTenant.Models.Tenant>
+@{
+    string Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>List of Tenandts</title>
+</head>
+<body>
+    <ul>
+        @foreach (var tenant in Model)
+        {
+            <li>@tenant.Name</li>
+        }
+    </ul>
+</body>
+</html>
