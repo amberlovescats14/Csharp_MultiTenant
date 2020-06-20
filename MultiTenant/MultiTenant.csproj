@@ -88,6 +88,10 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Models\Tenant.cs" />
     <Compile Include="Controllers\TenantController.cs" />
+    <Compile Include="Models\Session.cs" />
+    <Compile Include="Models\Speaker.cs" />
+    <Compile Include="Controllers\SessionController.cs" />
+    <Compile Include="Controllers\SpeakerController.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Web.config" />
@@ -99,6 +103,9 @@
     <Content Include="Global.asax" />
     <Content Include="packages.config" />
     <Content Include="Views\Tenant\Index.cshtml" />
+    <Content Include="Views\Tenant\Web.config" />
+    <Content Include="Views\Shared\Web.config" />
+    <Content Include="Views\Home\Web.config" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ProjectExtensions>
