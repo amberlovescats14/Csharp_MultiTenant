@@ -7,7 +7,5 @@ namespace MultiTenant.Models
         public string Name { get; set; }
         public string Domain { get; set; }
         public bool Default { get; set; }
-
-
     }
 }
