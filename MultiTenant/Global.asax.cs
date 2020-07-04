@@ -15,6 +15,8 @@ namespace MultiTenant
             GlobalConfiguration.Configure(WebApiConfig.Register);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
 
+
+            // ONE WAY TO SEED DATA
             //using(var context = new MultiTenantContext())
             //{
             //    context.Speakers.Add(new Speaker()
